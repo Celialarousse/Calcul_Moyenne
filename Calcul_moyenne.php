@@ -29,10 +29,10 @@
             echo "<p>Moyenne générale : " . round($moyenne, 2) . "</p>"; #Affichage de la moyenne générale arrondie à deux décimales.
 
             if ($moyenne >= 10) { #Condition pour afficher un message en fonction de la moyenne.
-                    echo "Bravo continuez comme sa";
-                } else {
-                    echo "Il faut travailler davantage";
-                }
+                echo "Bravo continuez comme sa";
+            } else {
+                echo "Il faut travailler davantage";
+            }
         ?>
     </body>
 </html>
